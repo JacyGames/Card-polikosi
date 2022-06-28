@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('./assets/MontserratAlternates-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('./assets/MontserratAlternates-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  html {
+    font-size: 13px;
+  }
+
+
+body {
+    box-sizing: border-box;
+    background-color: #0C001F;
+    font-family: 'Montserrat Alternates';
+    margin: 0;
+}
+
+.container {
+    width: 90rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    width: 90rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1.68rem 1.75rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.header__logo {
+    color: #FFFFFF;
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+.header__container {
+    display: flex;
+}
+
+.header__container__item {
+    color: #FFFFFF;
+    margin-right: 2.1875rem;
+    margin-top: 0.875rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.5625rem;
+    text-decoration: none;
+   
+}
+
+.header__container__item:hover {
+    transition: all 0.15s linear;
+    opacity: 0.7;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__info {
+    color: #ffffff;
+    margin-top: 16.3125rem;
+    margin-left: 0.8125rem;
+}
+
+.main__info_top {
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 122.9%;
+    margin-bottom: 4.0625rem;
+}
+
+.main__info_bottom {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 122.9%;
+}
+
+.main__img {   
+    width: 55.75rem;
+    height: 45.875rem;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__large {
+    border-radius: 12.3125rem;
+    height: 48rem;
+}
+
+.card__small {
+     margin-top: 27.75rem;
+     border-top-left-radius: 9.8125rem;
+     border-top-right-radius: 9.8125rem;
+}
+
+.card {
+    background-color: #320053;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.card__inner__large {
+    padding: 5.6875rem 10rem;
+    display: inline-block;
+}
+
+.card__inner__small {
+    padding: 3.375rem 5.3125rem 0 5.3125rem;
+    display: inline-block;
+}
+
+.card__info {
+    max-width: 35rem;
+}
+
+.card__info-small {
+    max-width: 23rem;
+}
+
+.card__info__header {
+    margin: 0;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card__info__text {
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2.15rem;
+    text-align: justify;
+    line-height: 2.150625rem;
+}
+
+.link__to {
+    text-decoration: none;
+    color: #C4A1EF;
+}
+

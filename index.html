@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header__logo">
+                Polikosi
+            </div>
+            <div class="header__container">
+                <a class="header__container__item" href="#aboutUs">About us</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main__info">
+                <div class="main__info_top">
+                    Start earning rewards from your cryptoassets immediately
+                </div>
+                <div class="main__info_bottom">
+                    Contribute to the blockchain's security and performance
+                </div>
+            </div>
+            <img class="main__img" src="./assets/solana-or-sol-coin-crypto-currency.png" alt="">
+
+        </div>
+
+        <div class="cards-container" id="aboutUs">
+            <div class="card card__large">
+                <div class="card__inner__large">
+                    <div class="card__info">
+                        <h1 class="card__info__header">
+                            About us
+                        </h1>  
+                        <div class="card__info__text">
+                            <p>
+                                Our node is located on a  France OVH. The servers was built, considering the maximum requirements of Solana, on the most suitable <a class="link__to" target="_blank" href="https://www.amd.com/en/products/cpu/amd-epyc-7313">hardware</a>
+                            </p>
+                            <p>
+                                The file system is protected by software antivirus and Firewall. There is a dedicated Internet channel with a speed of up to 1 Gbps. 
+                            </p>
+                            </div>
+                    </div>
+    
+                    <div class="card__info">
+                        <h1 class="card__info__header">
+                            How to stake 
+                        </h1>  
+                        <div class="card__info__text">
+                            <p>
+                            You can use this official <a class="link__to" target="_blank" href="https://docs.solana.com/staking">guide</a>
+                            </p>
+                            <p>
+                                Check validator stats <a class="link__to" target="_blank" href="https://www.validators.app/?locale=en&network=mainnet%29">polikosi</a> 
+                            </p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+            <div class="card card__small">
+                <div class="card__inner__small">
+                    <div class="card__info-small">
+                        <h1 class="card__info__header">
+                            Security
+                        </h1>  
+                        <div class="card__info__text">
+                            <p>
+                                We cannot spend your tokens or dispose of it in any manner    
+                            </p>
+                            <p>
+                                This is non-custodial feature and only you decide when to delegate additional tokens or to unstake them    
+                            </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('a[href="#aboutUs"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.getElementById('aboutUs').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+    </script>
+</body>
+</html>
